@@ -1,0 +1,64 @@
+ string name;
+ std::cin>>name;
+             for(int i=0;i<3;i++)
+            {
+                for(int j=i+1;j<5;j++)
+                {
+                    for(int k=j+1; k<7;k++)
+                    {
+                        for(int l=k+1;l<9;l++)
+                        {
+                            for(int f=l+1;f<10;f++)
+                            {
+                                while(True)
+                                {
+                                    if(y==5)
+                                    {
+                                        switch (name)
+                                        {
+                                            case "Bob":
+                                                std::cout << "Hello, Bob";
+                                                break;
+                                            case "Tom":
+                                                std::cout << "Hello, Tom";
+                                                if(i == 1)
+                                                {
+                                                    std::cout << "\n";
+                                                    if(i == 2)
+                                                    {
+                                                        std::cout << "\n";
+                                                    }
+                                                }
+                                                break;
+                                            case "Sam":
+                                                std::cout << "Hello, Sam";
+                                                break;
+                                            default:
+                                                std::cout << "Hello, nice to meet you";
+                                                break;
+                                        }
+                                        break;
+                                    }
+                                }
+                                if (y == 1)
+                                {
+                                    std::cout << "hello, world";
+                                }
+                                else if (y == 2)
+                                {
+                                    std::cout << "how are you?";
+                                }
+                                else if (y == 3)
+                                {
+                                    std::cout << "what is it?";
+                                }
+                                else
+                                {
+                                    std::cout << "goodbye");
+                                }
+				                y++;
+                            }
+                        }
+                    }
+                }
+            }
